@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="UnificadaModelStoreContainer" CdmEntityContainer="UnificadaEntities">
+    <EntitySetMapping Name="matriculas">
+      <EntityTypeMapping TypeName="UnificadaModel.matricula">
+        <MappingFragment StoreEntitySet="matricula">
+          <ScalarProperty Name="curso" ColumnName="curso" />
+          <ScalarProperty Name="disciplina" ColumnName="disciplina" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="cidade" ColumnName="cidade" />
+          <ScalarProperty Name="sobrenome" ColumnName="sobrenome" />
+          <ScalarProperty Name="nome" ColumnName="nome" />
+          <ScalarProperty Name="ra" ColumnName="ra" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
